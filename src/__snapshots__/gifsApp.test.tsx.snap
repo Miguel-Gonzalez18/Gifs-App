@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GifsApp > Shfould render component properly 1`] = `
+<div>
+  <header
+    class="content-center"
+  >
+    <h1>
+      Gifs App
+    </h1>
+    <p>
+      Descubre y comparte el gifs perfecto
+    </p>
+  </header>
+  <div
+    class="search-container"
+  >
+    <input
+      placeholder="Eje: Demon Slayer"
+      type="search"
+      value=""
+    />
+    <button>
+      Buscar
+    </button>
+  </div>
+  <div
+    class="gifs-container"
+  />
+</div>
+`;

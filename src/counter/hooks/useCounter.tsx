@@ -10,6 +10,7 @@ export const useCounter = (initialValue: number = 10) => {
     const handleSubtract = () => {
         setCounter( (previewStade) => previewStade -1 )
     }
+    
     const handleReset = () => {
         setCounter(initialValue)
     }
